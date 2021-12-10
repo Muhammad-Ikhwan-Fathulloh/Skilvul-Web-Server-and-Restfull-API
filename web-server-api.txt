@@ -1,0 +1,25 @@
+1. Apa perbedaan antara static web server dan dynamic web server?
+Menurut saya perbedaannya terletak pada perubahan data pada suatu server
+Pada static web server sifat data didalamnya mengikuti awal saat memulai deploy jadi jika mau ada perubahan maka akan deploy ulang
+bedahalnya dengan dynamic web server dimana data dapat berubah ubah karena sistemnya dibuat dinamis tanpa harus deploy ulang
+
+2. Jelaskan arsitektur static site dan dynamic site
+static site
+user dapat melakukan request ke server dan server memberikan response
+dynamic site
+user dapat melakukan request ke server dan server memberikan response, dan dapat melakukan beberapa perubahan data
+
+3. Apa saja yang dapat kita buat pada sisi server?
+Pengolahan data dan komunikasi data untuk akses device pihak ketiga seperti api, lalu security untuk mengamankan data mulai dari siapa yang bisa akses dan akses dimana saja
+
+4. Mohon jelaskan apa itu RESTful?
+Restfull merupakan sebuah arsitektur komunikasi data dari rest dengan karakteristik client dan server dipisahkan dan dihubungkan dengan api
+5. Apa saja jenis HTTP verbs yang ada (jelaskan fungsinya masing-masing)
+GET = menerima data dari server
+POST = mengirim data ke server
+PUT = mengubah semua data ke server
+FETCH = mengubah sebagian data ke server
+DELETE = menghapus data dari server
+
+6. Apa fungsi dari Response Codes?
+Memberikan pemberitahuan hasil request yang diberikan oleh user
